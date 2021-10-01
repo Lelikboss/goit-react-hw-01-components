@@ -1,0 +1,31 @@
+.transactionHistory {
+  box-shadow: 0px 0px 19px 15px rgba(34, 60, 80, 0.2);
+  margin: 30px auto;
+  width: 600px;
+  text-align: center;
+  border-radius: 40px;
+}
+.transactionHistory th {
+  background-color: lightseagreen;
+  color: var(--main-bg-color);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.transactionHistory tbody tr td {
+  color: var(--main-text-color);
+  padding: 15px 0;
+  background-color: var(--main-bg-color);
+}
+.transactionHistory tbody tr:nth-child(2n) td {
+  background-color: var(--secondary-bg-color);
+}
+table {
+  border: 1px #ff0000 solid; /* стиль рамки */
+  border-collapse: collapse; /* убирание задвоенности рамки */
+}
+td {
+  border: 1px solid var(--border-color); /* стиль рамки ячеек */
+}
+th {
+  border: 1px solid var(--main-bg-color); /* стиль рамки заголовков */
+}
